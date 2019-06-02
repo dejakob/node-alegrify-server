@@ -92,7 +92,7 @@ workflows:
             set -x
 
             # write your script here
-            curl -X POST http://35.189.192.51/deploy -d '{"magic_password": "Can I please please please pleeeeaaase deploy to RC?"}'
+            curl -X POST http://SERVER_HOST/deploy -d '{"magic_password": "PASSWORD"}'
 
             # or run a script from your repository, like:
             # bash ./path/to/script.sh
