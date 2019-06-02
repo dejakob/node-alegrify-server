@@ -1,0 +1,352 @@
+indexes:
+
+## User
+
+- kind: User
+  properties:
+  - name: user_name
+  - name: updated_at
+    direction: desc
+
+- kind: User
+  properties:
+  - name: email
+  - name: updated_at
+    direction: desc
+
+- kind: User
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+- kind: User
+  properties:
+  - name: _id
+  - name: is_consult
+  - name: updated_at
+    direction: desc
+
+- kind: User
+  properties:
+  - name: _id
+  - name: clients
+  - name: updated_at
+    direction: desc
+
+- kind: User
+  properties:
+  - name: clients
+  - name: updated_at
+    direction: desc
+
+    # For Ostrich
+- kind: User
+  properties:
+  - name: can_see_dashboard
+  - name: updated_at
+    direction: desc
+
+## Answer
+
+- kind: Answer
+  properties:
+  - name: user_id
+  - name: updated_at
+    direction: desc
+
+- kind: Answer
+  properties:
+  - name: question_id
+  - name: updated_at
+    direction: desc
+
+- kind: Answer
+  properties:
+  - name: question_id
+  - name: user_id
+  - name: updated_at
+    direction: desc
+
+- kind: Answer
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## Mood
+
+- kind: Mood
+  properties:
+  - name: user_id
+  - name: updated_at
+    direction: desc
+
+- kind: Mood
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## MoodReflection
+
+- kind: MoodReflection
+  properties:
+  - name: mood_id
+  - name: updated_at
+    direction: desc
+
+- kind: MoodReflection
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## UserStatus
+
+- kind: UserStatus
+  properties:
+  - name: user_id
+  - name: updated_at
+    direction: desc
+
+- kind: UserStatus
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## WeekSchedule
+
+- kind: WeekSchedule
+  properties:
+  - name: user_id
+  - name: updated_at
+    direction: desc
+
+- kind: WeekSchedule
+  properties:
+  - name: type
+  - name: updated_at
+    direction: desc
+
+- kind: WeekSchedule
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## CrisisResource
+
+- kind: CrisisResource
+  properties:
+  - name: country
+  - name: updated_at
+    direction: desc
+
+- kind: CrisisResource
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+- kind: CrisisResource
+  properties:
+  - name: name
+  - name: updated_at
+    direction: desc
+
+## Country
+
+- kind: Country
+  properties:
+  - name: cca2
+  - name: updated_at
+    direction: desc
+
+- kind: Country
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## UserModulesHistory
+
+- kind: UserModulesHistory
+  properties:
+  - name: user_id
+  - name: updated_at
+    direction: desc
+
+- kind: UserModulesHistory
+  properties:
+  - name: updated_by
+  - name: updated_at
+    direction: desc
+
+- kind: UserModulesHistory
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## Preregistration
+
+- kind: Preregistration
+  properties:
+  - name: email
+  - name: updated_at
+    direction: desc
+
+- kind: Preregistration
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## PageView
+
+- kind: PageView
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## ConsultNote
+
+- kind: ConsultNote
+  properties:
+  - name: consult_id
+  - name: client_id
+  - name: updated_at
+    direction: desc
+
+- kind: ConsultNote
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## ConnectionProposal
+
+- kind: ConnectionProposal
+  properties:
+  - name: from
+  - name: type
+  - name: updated_at
+    direction: desc
+
+- kind: ConnectionProposal
+  properties:
+  - name: to
+  - name: type
+  - name: updated_at
+    direction: desc
+
+- kind: ConnectionProposal
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## DayReview
+
+- kind: DayReview
+  properties:
+  - name: user_id
+  - name: updated_at
+    direction: desc
+
+- kind: DayReview
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## StatGoal
+
+- kind: StatGoal
+  properties:
+  - name: value
+  - name: updated_at
+    direction: desc
+
+- kind: StatGoal
+  properties:
+  - name: key
+  - name: updated_at
+    direction: desc
+
+- kind: StatGoal
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## PushNotification
+- kind: PushNotification
+  properties:
+  - name: is_passive
+  - name: user_id
+  - name: created_at
+    direction: desc
+
+## Corporate
+- kind: Corporate
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## CorporateInvite
+- kind: CorporateInvite
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+- kind: CorporateInvite
+  properties:
+  - name: corporateId
+  - name: updated_at
+    direction: desc
+
+## CorporateMood
+- kind: CorporateMood
+  properties:
+  - name: corporate
+  - name: created_at
+    direction: desc
+    
+- kind: CorporateMood
+  properties:
+  - name: _id
+  - name: created_at
+    direction: desc
+
+## CorporateEvent
+- kind: CorporateEvent
+  properties:
+  - name: corporate
+  - name: updated_at
+    direction: desc
+
+- kind: CorporateEvent
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc
+
+## UserCorporateEvent
+- kind: UserCorporateEvent
+  properties:
+  - name: corporateEventId
+  - name: userId
+  - name: updated_at
+    direction: desc
+
+- kind: UserCorporateEvent
+  properties:
+  - name: _id
+  - name: updated_at
+    direction: desc

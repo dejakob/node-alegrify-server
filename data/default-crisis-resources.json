@@ -1,0 +1,92 @@
+[
+    {
+        "country": "nl",
+        "name": "113",
+        "phone": "+319000113",
+        "website": "http://113.nl",
+        "description": "Denk je aan aan zelfmoord? Neem contact op met 113. Crisislijn 24/7 open, therapie met een psycholoog of doe de zelfhulpcursus. Anoniem en vertrouwelijk.",
+        "language": "nl",
+        "tags": ["suicide"]
+    },
+    {
+        "country": "nl",
+        "name": "Sensoor",
+        "phone": "+319000767",
+        "website": "http://www.sensoor.nl",
+        "description": "Telefonische hulpdienst Sensoor is dag en nacht bereikbaar voor een anoniem, vertrouwelijk gesprek. Wij luisteren naar jouw verhaal.",
+        "language": "nl",
+        "tags": ["general"]
+    },
+    {
+        "country": "nl",
+        "name": "Fier",
+        "phone": "+31882080000",
+        "website": "http://fier.nl",
+        "description": "Chat met Fier is bedoeld voor iedereen die nare ervaringen heeft gehad. Is er iets gebeurd tegen je wil? Is er veel ruzie thuis? Heb je fysiek of psychisch geweld meegemaakt of word je bedreigd? Of maak je je zorgen over iemand uit je omgeving? Praat er online over met onze hulpverleners via de chat. Hier kun je (anoniem) je verhaal kwijt. Misschien heb je nog nooit gepraat over wat er aan de hand is en nog nooit eerder hulp gezocht. Onze hulpverleners luisteren naar je verhaal, geven jou informatie en helpen je als je dat wilt. Jouw verhaal en vragen worden vertrouwelijk behandeld. Twijfel je of je met jouw probleem wel bij de chat terecht kunt? Stel gewoon je vraag. Onze chatmedewerkers staan je altijd te woord.",
+        "language": "nl",
+        "tags": ["traum"]
+    },
+    {
+        "country": "nl",
+        "name": "Praten online",
+        "phone": "",
+        "website": "http://pratenonline.nl",
+        "description": "Voel jij je down, angstig of gespannen? Bij PratenOnline.nl kun je gratis en anoniem chatten met een professional - voor jongeren tussen 12 - 23 jaar.",
+        "language": "nl",
+        "tags": ["youth"]
+    },
+    {
+        "country": "nl",
+        "name": "kindertelefoon",
+        "phone": "+318000432",
+        "website": "http://kindertelefoon.nl",
+        "description": "Je kunt chatten met een volwassen vrijwilliger van De Kindertelefoon of met een leeftijdsgenoot. Je kunt met ons chatten zonder dat je je naam vertelt. Je chat vertrouwelijk met ons. Wij geven geen gegevens van jou door aan anderen.",
+        "language": "nl",
+        "tags": ["child"]
+    },
+    {
+        "country": "nl",
+        "name": "Slachtofferhulp",
+        "phone": "+319000101",
+        "website": "http://slachtofferhulp.nl",
+        "description": "Slachtofferhulp Nederland helpt na een ingrijpende gebeurtenis. Jaarlijks helpen wij 200.000 slachtoffers en nabestaanden hun leven weer op te pakken.",
+        "language": "nl",
+        "tags": ["victim"]
+    },
+    {
+        "country": "be",
+        "name": "Zelfmoord 1813",
+        "phone": "+321813",
+        "website": "http://zelfmoordlijn1813.be",
+        "description": "Bij de Zelfmoordlijn1813 staat er iemand voor je klaar. Elk gesprek is anoniem en gratis.",
+        "language": "nl",
+        "tags": ["suicide"]
+    },
+    {
+        "country": "be",
+        "name": "Teleonthaal",
+        "phone": "+32106",
+        "website": "http://www.tele-onthaal.be",
+        "description": "Zoek je een uitweg? Praten helpt!",
+        "language": "nl",
+        "tags": ["general"]
+    },
+    {
+        "country": "be",
+        "name": "Stichting ES",
+        "phone": "",
+        "website": "http://stichtinges.nl",
+        "description": "Wie is Es - ES is er. Voor jou. Emotionele Support. Zonder kosten. Als je het even niet meer alleen kunt.",
+        "language": "nl",
+        "tags": ["general"]
+    },
+    {
+        "country": "be",
+        "name": "Awel",
+        "phone": "+32102",
+        "website": "http://awel.be",
+        "description": "Je kan Awel elke dag bereiken van 16 uur tot 22 uur, behalve op zon- en feestdagen. Een gesprek met Awel hoef je niet te betalen. Het is volledig gratis. Je belt helemaal anoniem met Awel. Je hoeft niet te vertellen wie je bent, jouw telefoonnummer verschijnt niet op onze telefoon en jouw gesprek met Awel komt niet op de telefoonfactuur.",
+        "language": "nl",
+        "tags": ["youth"]
+    }
+]

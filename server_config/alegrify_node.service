@@ -1,0 +1,14 @@
+[Unit]
+Description=Alegrify node server
+Documentation=https://example.com
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/home/happy/.nvm/versions/node/v10.14.2/bin/node /home/happy/alegrify-server
+Environment=NODE_ENV=production
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

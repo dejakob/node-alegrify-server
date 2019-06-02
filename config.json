@@ -1,0 +1,61 @@
+{
+    "EXPRESS_SECRET": "ENTER_EXPRESS_SECRET",
+
+    "USER_DATA_RULES": {
+        "FIELDS_THAT_CAN_BE_UPDATED_BY_USER": [
+            "email",
+            "password",
+            "full_name",
+            "first_name",
+            "last_name",
+            "avatar",
+            "pushNotificationId"
+        ],
+        "FIELDS_TO_EXPOSE_TO_SELF": [
+            "_id",
+            "_deleted",
+            "user_name",
+            "email",
+            "full_name",
+            "first_name",
+            "last_name",
+            "avatar",
+            "locale",
+            "pushNotificationId",
+            "consults",
+            "corporates"
+        ],
+        "FIELDS_TO_EXPOSE_TO_CLIENT": [
+            "_id",
+            "_deleted",
+            "user_name",
+            "email",
+            "full_name",
+            "first_name",
+            "last_name",
+            "avatar",
+            "locale"
+        ],
+        "FIELDS_TO_EXPOSE_TO_CONSULT": [
+            "_id",
+            "_deleted",
+            "user_name",
+            "email",
+            "full_name",
+            "first_name",
+            "last_name",
+            "avatar"
+        ],
+        "FIELDS_TO_EXPOSE_TO_CORPORATE": [
+            "_id",
+            "_deleted",
+            "user_name",
+            "email",
+            "full_name",
+            "first_name",
+            "last_name",
+            "avatar",
+            "locale"
+        ]
+    }
+}
