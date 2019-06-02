@@ -12,3 +12,8 @@ Bitrise was used as a CI tool and ran end2end tests on each push to the `develop
 If tests succeeded, `develop` would be merged into `master` and `master` would get deployed on the RC server.
 
 ## Isomorphic state
+
+Getting information goes through one generated state object.
+When initially loading the page, the state will be injected into the app server-side before passing the HTML to the end user.
+When a user navigates (using soft links), another state object will be loaded via AJAX and the React app will update the page with the new data.
+[This service](./services/state.js) generated an initial app state based upon the given route and options.
