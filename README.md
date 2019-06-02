@@ -11,6 +11,11 @@ Check out the [__tests__](./__tests__) folder to see all the end to end tests.
 Bitrise was used as a CI tool and ran end2end tests on each push to the `develop` branch.
 If tests succeeded, `develop` would be merged into `master` and `master` would get deployed on the RC server.
 
+## Database
+
+Alegrify wasn't build on a 'regular' SQL database but used the Google Datastore.
+There is a [small service](./services/database.js) that has some handy methods for fetching and storing data into the Datastore.
+
 ## Isomorphic state
 
 Getting information goes through one generated state object.
