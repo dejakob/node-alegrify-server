@@ -14,7 +14,7 @@
     "@sendgrid/mail": "^6.3.1",
     "alegrify-web": "dejakob/alegrify#master",
     "basic-auth": "^2.0.1",
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cuid": "^2.1.4",
